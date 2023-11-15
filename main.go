@@ -13,7 +13,7 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-  fmt.Fprintf(w, "Hello -555- Prow: %d", Random())
+  fmt.Fprintf(w, "Hello -666- Prow: %d", Random())
 }
 
 func Random() int {
